@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    margin-top: 20px;
+}
+.question-box {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.question-box:hover {
+    opacity: 0.8;
+}
+.box1 {
+    background-color: #ffcccb; 
+}
+.box2 {
+    background-color: #add8e6;
+}
+.answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
